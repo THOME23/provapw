@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard - Plataforma ONG</title>
+  <link rel="stylesheet" href="dashboard.css" />
+</head>
+<body>
+  <div class="dashboard-container">
+    <h1>Cadastro de Voluntários</h1>
+    <form id="formVoluntario">
+      <input type="text" id="nome" placeholder="Nome completo" required />
+      <input type="email" id="email" placeholder="E-mail" required />
+      <input type="text" id="cep" placeholder="CEP" required />
+      <input type="text" id="endereco" placeholder="Endereço" disabled />
+      <button type="submit">Cadastrar</button>
+    </form>
+    <div class="controls">
+      <input type="text" id="filtro" placeholder="Filtrar por nome..." />
+      <button id="limparTudo">Limpar Tudo</button>
+    </div>
+    <div id="listaVoluntarios" class="cards-container"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

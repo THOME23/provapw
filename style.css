@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #feecec;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.login-container {
+  background: white;
+  padding: 2em;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(91, 88, 95, 0.1);
+}
+
+.login-container h1 {
+  margin-bottom: 1em;
+}
+
+input, button {
+  width: 100%;
+  padding: 10px;
+  margin: 0.5em 0;
+}
+
+.erro {
+  color: rgb(125, 120, 156);
+  font-size: 0.9em;
+}
